@@ -1,5 +1,7 @@
 require 'pry'
 
+speed = gets.chomp
+
 # Output safe/unsafe based from given speed 
 def unsafe?(speed)
   if speed > 60 || speed < 40
