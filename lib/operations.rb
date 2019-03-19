@@ -1,4 +1,5 @@
 def unsafe?(speed)
+  if speed > 60
 
  describe "#unsafe?" do
     it 'returns true if speed is greater than 60' do
