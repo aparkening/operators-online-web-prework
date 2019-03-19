@@ -7,7 +7,6 @@ def unsafe?(speed)
   else 
     false
   end 
-  binding.pry
 end
 
 # Determine speed safety using ternary operator 
