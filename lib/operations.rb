@@ -1,4 +1,3 @@
-require 'pry'
 
 # Output safe/unsafe based from given speed 
 def unsafe?(speed)
